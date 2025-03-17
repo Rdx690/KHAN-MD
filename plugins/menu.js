@@ -26,7 +26,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ╰━━━━━━━━━━━━━━━┈⊷
 ╭━━〔 *Menu List* 〕━━┈⊷
 ┃◈╭─────────────·๏
-┃◈┃• Quranmenu
+┃◈┃• menu
 ┃◈┃• Prayertime
 ┃◈┃• Aimenu
 ┃◈┃• Anmiemenu
@@ -49,7 +49,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/7zfdcq.jpg` },
+                image: { url: `https://files.catbox.moe/y16skc.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
